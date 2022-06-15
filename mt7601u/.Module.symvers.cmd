@@ -1,0 +1,1 @@
+cmd_/home/samiul/wifidriver/mt7601u/Module.symvers := sed 's/\.ko$$/\.o/' /home/samiul/wifidriver/mt7601u/modules.order | scripts/mod/modpost  -a  -o /home/samiul/wifidriver/mt7601u/Module.symvers -e -i Module.symvers  -N -T -

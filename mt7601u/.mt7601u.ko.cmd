@@ -1,0 +1,1 @@
+cmd_/home/samiul/wifidriver/mt7601u/mt7601u.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/samiul/wifidriver/mt7601u/mt7601u.ko /home/samiul/wifidriver/mt7601u/mt7601u.o /home/samiul/wifidriver/mt7601u/mt7601u.mod.o;  true
